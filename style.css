@@ -67,6 +67,47 @@ h1, h2 {
   margin-bottom: 8px;
 }
 
-.title-list p {
+.title-list p,
+.travel-card p {
   font-weight: 400;
+}
+
+.travel-card {
+  margin-bottom: 48px;
+}
+
+.travel-card img {
+  width: 100%;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+ol li {
+  color:#1B1B1B;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 24px;
+  margin-bottom: 4px;
+}
+
+.travel-card p {
+  margin-bottom: 24px;
+}
+
+ul li {
+  color:#0C51A7;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.couples {
+  color: #591B98;
+}
+
+.families {
+  color: #E5245E;
+}
+
+.budget {
+  color: #E95E10;
 }
