@@ -44,7 +44,6 @@ h1, h2 {
   color:#333333;
   text-align: center;
   font-style: italic;
-  font-weight: 400;
 }
 
 .divisor {
@@ -65,11 +64,6 @@ h1, h2 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 8px;
-}
-
-.title-list p,
-.travel-card p {
-  font-weight: 400;
 }
 
 .travel-card {
@@ -110,4 +104,12 @@ ul li {
 
 .budget {
   color: #E95E10;
+}
+
+.divisor:nth-last-child(2) {
+  margin: 40px 0;
+}
+
+.description {
+  text-align: center;
 }
